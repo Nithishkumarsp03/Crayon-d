@@ -1,14 +1,12 @@
-
 import './App.css'
-import Login from './components/login'
+import About from './Pages/About/About'
 
 function App() {
 
 
   return (
     <>
-    <h1>hello world</h1>
-    <Login/>
+      <About />
     </>
   )
 }
