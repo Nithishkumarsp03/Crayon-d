@@ -1,12 +1,14 @@
 
 import './App.css'
+import Login from './components/Homepage'
 
 function App() {
 
 
   return (
     <>
-      <h1>this is a git project</h1>
+    
+    <Login />
     </>
   )
 }
