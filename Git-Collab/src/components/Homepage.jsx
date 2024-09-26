@@ -1,6 +1,8 @@
 import React from 'react';
 import mainImage from '../assets/image.png'; 
 import women from '../assets/women.webp'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import {  } from '@fortawesome/free-solid-svg-icons';
 const categories = [
     {
       title: "TRAVELS",
@@ -57,25 +59,25 @@ const categories = [
      
       overflow: 'hidden', 
       marginBottom: '20px',
-      marginLeft:'200px'
+      marginLeft:'150px'
     }}>
       <img 
         src={imageUrl} 
         alt={title} 
         style={{
           width: '100%', 
-          height: '200px', 
+          height: '300px', 
           objectFit: 'cover'
         }} 
       />
       <div style={{ padding: '20px' }}>
-        <h3 style={{ fontSize: '18px', color: '#333', marginBottom: '10px' }}>
+        <h3 style={{ fontSize: '24px', color: '#333333', marginBottom: '10px' }}>
           {title}
         </h3>
-        <p style={{ fontSize: '14px', color: '#999', marginBottom: '15px' }}>
+        <p style={{ fontSize: '16px', color: '#999', marginBottom: '15px' }}>
           {date}
         </p>
-        <p style={{ fontSize: '14px', color: '#666', marginBottom: '20px' }}>
+        <p style={{ fontSize: '16px', color: '#666', marginBottom: '20px' }}>
           {description}
         </p>
         <a  style={{ fontSize: '14px', color: '#5a7f5f', textDecoration: 'none' }}>
@@ -86,7 +88,7 @@ const categories = [
   );
   const CategoryCard = ({ title, description, image }) => (
     <div style={{
-      width: '250px',
+      width: '200px',
     
       textAlign: 'center',
      
@@ -96,7 +98,7 @@ const categories = [
       margin:'20px'
     }}>
       <div style={{ position: 'relative', display: 'inline-block' }}>
-  <img src={image} alt={title} style={{ width: '250px', height: '220px' ,borderRadius:'5px'}} />
+  <img src={image} alt={title} style={{ width: '220px', height: '250px' ,borderRadius:'5px'}} />
 
   <div style={{
     backgroundColor: '#5a7f5f',
@@ -120,9 +122,11 @@ const categories = [
 </div>
 
       <p style={{
-        padding: '15px',
+        
         fontSize: '0.9rem',
         color: '#333333',
+        marginTop:'50px'
+        
       }}>
         {description}
       </p>
@@ -130,7 +134,7 @@ const categories = [
   );
 const Homepage = () => {
   return (
-    <div style={{backgroundColor:'white',height:'4000px'}}><div style={{ 
+    <div style={{backgroundColor:'white'}}><div style={{ 
         width: '100%', 
         height: '100vh', 
         position: 'relative', 
@@ -156,14 +160,14 @@ const Homepage = () => {
           color: '#658265', 
           fontSize: '100px',
           marginTop:'100px',
-          marginLeft:'500px',
+          marginLeft:'100px',
           fontFamily:"sans-serif"
               
         }}>
           <span style={{color:'#3E613E'}}>My</span> <br /> lifestyle<br /> blog
         </div>
       </div>
-      <div style={{width:'1000px', display:'flex',alignItems:'center',justifyContent:'center',marginLeft:'240px',marginTop:'80px'}} >
+      <div style={{width:'1000px', display:'flex',alignItems:'center',justifyContent:'center',marginLeft:'240px',marginTop:'150px'}} >
         <div style={{width:'377px',color:'#333333',fontSize:'17px'}}><p><span style={{color:'#3E613E',fontSize:'1.4rem'}}>What is this blog about? </span><br />
 <span style={{color:'#333333',marginBottom:'20px'}}>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquam dui ac nunc egestas interdum. Suspendisse dapibus luctus dolor quis dignissim. Proin ac auctor nibh. Mauris sed urna id elit dictum suscipit. Maecenas hendrerit mollis ligula vel lacinia. Donec tellus nisi, dignissim ut massa at, aliquet posuere augue. Phasellus dapibus libero purus, quis gravida nulla pulvinar at.
@@ -173,18 +177,17 @@ Morbi porttitor eros magna, convallis vehicula sapien gravida nec. Praesent faci
 </span>
 </p></div>
         <div>
-            <img src={women} alt="" style={{width:'320px',height:'380px',marginLeft:'180px'}} />
+            <img src={women} alt="" style={{width:'370px',height:'430px',marginLeft:'180px'}} />
         </div>
       </div>
-      <div style={{marginBottom:'10px',marginLeft
-        :'320px'
+      <div style={{marginBottom:'10px',marginLeft:'200px',marginTop:'110px'
       }}>
-        <div style={{marginTop:'50px',marginLeft:'390px'}}>
-        <h1 style={{color:'#658265'}}>Categoreies</h1>
+        <div style={{marginLeft:'350px'}}>
+        <h1 style={{color:'#658265',fontSize:'4rem'}}>Categoreies</h1>
         </div>
         <div style={{
       display: 'flex',
-      
+      gap:'30px',
       alignItems: 'center',
       flexWrap: 'wrap',
       margin: '20px',
@@ -201,7 +204,7 @@ Morbi porttitor eros magna, convallis vehicula sapien gravida nec. Praesent faci
         
       </div>
       <div style={{ padding: '40px', fontFamily: 'Arial, sans-serif' }}>
-      <h2 style={{ fontSize: '40px', color: '#5a7f5f', textAlign: 'center', marginBottom: '40px' }}>
+      <h2 style={{ fontSize: '4rem', color: '#5a7f5f', textAlign: 'center', marginBottom: '70px' }}>
     Articles
       </h2>
       <div style={{
@@ -221,7 +224,7 @@ Morbi porttitor eros magna, convallis vehicula sapien gravida nec. Praesent faci
         ))}
       </div>
     </div>
-    <div style={{ fontFamily: 'Arial, sans-serif', padding: '40px', textAlign: 'center' }}>
+    <div style={{ fontFamily: 'Arial, sans-serif', textAlign: 'center' }}>
         <h2 style={{ color: '#5a7f5f', marginBottom: '30px' }}>Subscribe</h2>
         <form  style={{ maxWidth: '600px', margin: '0 auto' }}>
           <div style={{ marginBottom: '20px', textAlign: 'left' }}>
@@ -297,11 +300,13 @@ Morbi porttitor eros magna, convallis vehicula sapien gravida nec. Praesent faci
               <img src="https://img.freepik.com/premium-vector/instagram-vector-logo-icon-social-media-logotype_901408-390.jpg" alt="Instagram" style={{height:'20px',width:'30px'}}  />
             </a>
             <a href="https://twitter.com" style={{ margin: '0 10px' }}>
+              
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuPu9d4JnepxqvMOoGL3Pe9_1LFk0uzPRAow&s" alt="Twitter" style={{height:'20px',width:'30px'}} />
             </a>
+
           </div>
           <div style={{ 
-  position: 'fixed', 
+   
   width: '100%', 
   marginTop: '40px', 
   fontSize: '12px', 
