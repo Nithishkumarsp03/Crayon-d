@@ -1,0 +1,33 @@
+.navbar {
+    width: 100%;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.2);
+
+  background-color: rgb(250, 247, 247);
+  }
+  
+  .nav-list {
+   
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+    
+  }
+  
+  .nav-link {
+    color: rgb(118, 135, 105);
+    text-decoration: none;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .nav-link:hover {
+    color: #9fdc2e;
+  }
