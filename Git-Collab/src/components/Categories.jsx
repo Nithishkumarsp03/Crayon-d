@@ -78,7 +78,7 @@ const Categories = () => {
           <div className='set2'>
           <h3>My trip to maharastra</h3>
           <p>2nd OCT 2024</p>
-          <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga ea, repellendus aut eum necessitatibus nostrum a amet unde eos fugiat nihil, adipisci similique id culpa tenetur voluptatibus perspiciatis neque totam Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis delectus sequi sed, explicabo numquam autem optio consequuntur inventore accusantium voluptates nostrum nisi, magni animi nemo omnis suscipit porro tenetur ad!?</span>
+          <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga ea, aravinth  repellendus aut eum necessitatibus nostrum a amet unde eos fugiat nihil, adipisci similique id culpa tenetur voluptatibus perspiciatis neque totam Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis delectus sequi sed, explicabo numquam autem optio consequuntur inventore accusantium voluptates nostrum nisi, magni animi nemo omnis suscipit porro tenetur ad!?</span>
           </div></div>
 
           <div className='set1'>
