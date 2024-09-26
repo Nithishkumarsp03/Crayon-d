@@ -6,7 +6,7 @@ import women from '../assets/women.webp'
 const categories = [
     {
       title: "TRAVELS",
-      description: "Ut at felis pulvinar, volutpat eros et, egestas purus. Integer id velit ac sem porttitor pulvinar. Cras varius quam ac tortor vehicula molestie. Nunc at mauris at tortor pretium vestibulum.",
+      description: "travels",
       image: women
     },
     {
