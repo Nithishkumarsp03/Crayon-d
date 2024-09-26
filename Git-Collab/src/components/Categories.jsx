@@ -111,7 +111,7 @@ const Categories = () => {
             <h3>My trip to Maharashtra</h3>
             <p>2nd OCT 2024</p>
             <span>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga ea,
+              Lorem ipsum, dolor sit   mukesh amet consectetur adipisicing elit. Fuga ea,
               repellendus aut eum necessitatibus nostrum a amet unde eos fugiat
               nihil, adipisci similique id culpa tenetur voluptatibus
               perspiciatis neque totam Lorem ipsum dolor sit amet consectetur
