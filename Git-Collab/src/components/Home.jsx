@@ -1,4 +1,4 @@
-import React from 'react';
+
 import mainImage from '../assets/image.png'; 
 import women from '../assets/women.webp'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -94,11 +94,11 @@ const categories = [
      
       borderRadius: '5px',
       
-      overflow: 'hidden',
+      
       margin:'20px'
     }}>
       <div style={{ position: 'relative', display: 'inline-block' }}>
-  <img src={image} alt={title} style={{ width: '220px', height: '250px' ,borderRadius:'5px'}} />
+  <img src={image} alt={title} style={{ width: '220px', height: '230px' ,borderRadius:'5px'}} />
 
   <div style={{
     backgroundColor: '#5a7f5f',
@@ -132,7 +132,7 @@ const categories = [
       </p>
     </div>
   );
-const Homepage = () => {
+const Home = () => {
   return (
     <div style={{backgroundColor:'white'}}><div style={{ 
         width: '100%', 
@@ -160,7 +160,7 @@ const Homepage = () => {
           color: '#658265', 
           fontSize: '100px',
           marginTop:'100px',
-          marginLeft:'100px',
+          marginLeft:'400px',
           fontFamily:"sans-serif"
               
         }}>
@@ -234,11 +234,14 @@ Morbi porttitor eros magna, convallis vehicula sapien gravida nec. Praesent faci
              
               style={{
                 backgroundColor:'white',
-                width: '100%',
+                width: '94%',
                 padding: '10px',
                 fontSize: '16px',
                 border: '1px solid #ccc',
-                borderRadius: '5px'
+                borderRight:'1px solid #ccc',
+                borderRadius: '5px',
+                outline:'none'
+                
               }}
             />
           </div>
@@ -250,7 +253,7 @@ Morbi porttitor eros magna, convallis vehicula sapien gravida nec. Praesent faci
               
               style={{
                 backgroundColor:'white',
-                width: '100%',
+                width: '94%',
                 padding: '10px',
                 fontSize: '16px',
                 height: '150px',
@@ -263,14 +266,15 @@ Morbi porttitor eros magna, convallis vehicula sapien gravida nec. Praesent faci
           <button
             type="submit"
             style={{
-              width: '620px',
+              width: '590px',
               padding: '10px',
               backgroundColor: '#5a7f5f',
               color: 'white',
               fontSize: '16px',
               border: 'none',
               borderRadius: '5px',
-              cursor: 'pointer'
+              cursor: 'pointer',
+              marginRight:'10px'
             }}
           >
             SEND
@@ -329,4 +333,4 @@ Morbi porttitor eros magna, convallis vehicula sapien gravida nec. Praesent faci
   );
 };
 
-export default Homepage;
+export default Home;
