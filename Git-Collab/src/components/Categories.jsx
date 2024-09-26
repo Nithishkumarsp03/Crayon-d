@@ -3,7 +3,7 @@ import '../Styles/Categories.css';
 
 const images = [
   'https://static.toiimg.com/thumb/msid-92443076,width-1070,height-580,resizemode-75/92443076,pt-32,y_pad-40/92443076.jpg',
-  'https://media-cdn.tripadvisor.com/media/photo-c/1280x250/07/c1/75/9d/a-beautiful-view-from.jpg',
+  'https://i0.wp.com/www.tripstodiscover.com/wp-content/uploads/2015/08/Durmitor-National-Park-Mon.jpg?resize=1200,628',
   'https://media.easemytrip.com/media/Blog/India/637870903728666071/637870903728666071B4iTsT.jpg',
   'https://cms.musafir.com/uploads/df9a883d_a285_4e7b_bf07_f88f796bc4da_8c5e98e9cb.jpeg',
   'https://www.tripsavvy.com/thmb/h-vEuKNoD1uu1cW8AHh_L8YGn24=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1075879774-714c3b3b727d4d8c8dc9f66a12ea7d03.jpg'
