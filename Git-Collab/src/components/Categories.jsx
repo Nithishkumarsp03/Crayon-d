@@ -6,7 +6,7 @@ const images = [
   'https://media-cdn.tripadvisor.com/media/photo-c/1280x250/07/c1/75/9d/a-beautiful-view-from.jpg',
   'https://media.easemytrip.com/media/Blog/India/637870903728666071/637870903728666071B4iTsT.jpg',
   'https://cms.musafir.com/uploads/df9a883d_a285_4e7b_bf07_f88f796bc4da_8c5e98e9cb.jpeg',
-  'https://www.tripsavvy.com/thmb/h-vEuKNoD1uu1cW8AHh_L8YGn24=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1075879774-714c3b3b727d4d8c8dc9f66a12ea7d03.jpg'
+ 
 ];
 
 const Categories = () => {
@@ -17,7 +17,7 @@ const Categories = () => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, 3000);
 
-    return () => clearInterval(interval); // Cleanup the interval on unmount
+    return () => clearInterval(interval); 
   }, []);
 
   return (
