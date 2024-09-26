@@ -22,7 +22,7 @@ const Categories = () => {
 
   return (
     <div className="categories">
-     
+      {/* Image Slider */}
       <div className="image-slider">
         {images.map((image, index) => (
           <img
