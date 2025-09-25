@@ -12,7 +12,7 @@ export default function About() {
     <div>
         <div className='about-us'>
             <div className='left-content'>
-                <h3>My name is Sofia White...</h3>
+                <h3>My name is Sofia White....</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque aliquet mattis. 
                     Duis ultricies eu mauris quis tincidunt. In non justo vel est consectetur porttitor.
